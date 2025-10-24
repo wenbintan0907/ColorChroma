@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71360E7B2E191387002E32A1 /* OnboardingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71360E7A2E191385002E32A1 /* OnboardingModels.swift */; };
+		71360EB52E192086002E32A1 /* StandardColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71360EB42E192084002E32A1 /* StandardColor.swift */; };
+		71703BEC2E163E5B008FDF5D /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71703BEB2E163E5B008FDF5D /* MainTabView.swift */; };
+		71703BED2E163E5B008FDF5D /* ColorChromaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71703BE82E163E5B008FDF5D /* ColorChromaApp.swift */; };
+		71703BEF2E163E5B008FDF5D /* ContentViewWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71703BEA2E163E5B008FDF5D /* ContentViewWrapper.swift */; };
+		71703BF02E163E5B008FDF5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71703BE72E163E5B008FDF5D /* Assets.xcassets */; };
+		717618D02E1687E60060D62A /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717618CD2E1687E60060D62A /* TasksView.swift */; };
+		71ADA6772E17D742009E036B /* ColorTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ADA6762E17D73D009E036B /* ColorTips.swift */; };
+		71CF6D862E16BE16004D4AEE /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CF6D852E16BD50004D4AEE /* CustomBackButton.swift */; };
+		71CF6D882E16D5A3004D4AEE /* SettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71CF6D872E16D59E004D4AEE /* SettingsModels.swift */; };
+		71FA75EC2E16B48000A1DE58 /* LabeledItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FA75EB2E16B3E200A1DE58 /* LabeledItems.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71360E7A2E191385002E32A1 /* OnboardingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModels.swift; sourceTree = "<group>"; };
+		71360EB42E192084002E32A1 /* StandardColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardColor.swift; sourceTree = "<group>"; };
+		7140FBDF2E16396C006000D8 /* ColorChroma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorChroma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71703BE72E163E5B008FDF5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71703BE82E163E5B008FDF5D /* ColorChromaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChromaApp.swift; sourceTree = "<group>"; };
+		71703BEA2E163E5B008FDF5D /* ContentViewWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewWrapper.swift; sourceTree = "<group>"; };
+		71703BEB2E163E5B008FDF5D /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		717618CD2E1687E60060D62A /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		71ADA6762E17D73D009E036B /* ColorTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTips.swift; sourceTree = "<group>"; };
+		71CF6D852E16BD50004D4AEE /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
+		71CF6D872E16D59E004D4AEE /* SettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModels.swift; sourceTree = "<group>"; };
+		71FA75EB2E16B3E200A1DE58 /* LabeledItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledItems.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		71360E7F2E1914AF002E32A1 /* Exceptions for "Onboarding" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				OnboardingView.swift,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		71360EBA2E1920D7002E32A1 /* Exceptions for "ColorReference" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ColorReferenceView.swift,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		716C8C4E2E17E14100CF3015 /* Exceptions for "ReferenceComparison" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ReferenceCompareUI.swift,
+				ReferenceService.swift,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		71703CE72E164FC6008FDF5D /* Exceptions for "Chart" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ChartAnalyzerService.swift,
+				ChartsView.swift,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		71703CE82E164FC6008FDF5D /* Exceptions for "Chat" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ChatService.swift,
+				ChatView.swift,
+				TypingIndicatorView.swift,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		71703CE92E164FC6008FDF5D /* Exceptions for "Home" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				HomeModels.swift,
+				HomeScreen.swift,
+				HomeViewModel.swift,
+				README.md,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		71703CEA2E164FC6008FDF5D /* Exceptions for "LiveScan" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CameraManager.swift,
+				CameraView.swift,
+				ColorNamer.swift,
+				ContentView.swift,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		71703CEB2E164FC6008FDF5D /* Exceptions for "Resources" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				APIKey.swift,
+				GeminiAPITypes.swift,
+				"GenerativeAI-Info.plist",
+				SavedItem.swift,
+				"UIColor+Hex.swift",
+				"UIImage+Color.swift",
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		71717D602E1769D100AB0086 /* Exceptions for "Indicator" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				IndicatorService.swift,
+				SignalIndicatorView.swift,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		71717D672E177EC600AB0086 /* Exceptions for "FoodAid" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				FoodAidService.swift,
+				FoodAidView.swift,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		71717D6F2E178E9700AB0086 /* Exceptions for "InfoHub" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ColorBlindnessInfo.swift,
+				InfoHubView.swift,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		717619032E16918D0060D62A /* Exceptions for "Maps" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				MapService.swift,
+				MapView.swift,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		71ADA6602E17AC28009E036B /* Exceptions for "ColorTest" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ColorTestView.swift,
+				Ishihara/ColorTestModels.swift,
+				Ishihara/ishihara5.gif,
+				Ishihara/ishihara8.gif,
+				Ishihara/ishihara12.gif,
+				Ishihara/ishihara74.gif,
+				Ishihara/test.png,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		71BD6A152E1807A800366797 /* Exceptions for "Labeling" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				EditItemView.swift,
+				LabelingView.swift,
+				SavedItemsView.swift,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		71BD6A1B2E18212100366797 /* Exceptions for "ColorDescription" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ColorDetailSheet.swift,
+				DescriptionService.swift,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+		71CF6D8C2E16D643004D4AEE /* Exceptions for "Settings" folder in "ColorChroma" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				SettingsView.swift,
+			);
+			target = 7140FBDE2E16396C006000D8 /* ColorChroma */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		71360E7C2E191392002E32A1 /* Onboarding */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71360E7F2E1914AF002E32A1 /* Exceptions for "Onboarding" folder in "ColorChroma" target */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		71360EB72E1920A2002E32A1 /* ColorReference */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71360EBA2E1920D7002E32A1 /* Exceptions for "ColorReference" folder in "ColorChroma" target */,
+			);
+			path = ColorReference;
+			sourceTree = "<group>";
+		};
+		7140FBE12E16396C006000D8 /* ColorChroma */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ColorChroma;
+			sourceTree = "<group>";
+		};
+		716C8C482E17DCE600CF3015 /* ReferenceComparison */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				716C8C4E2E17E14100CF3015 /* Exceptions for "ReferenceComparison" folder in "ColorChroma" target */,
+			);
+			path = ReferenceComparison;
+			sourceTree = "<group>";
+		};
+		71703CAC2E164FC6008FDF5D /* Chart */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71703CE72E164FC6008FDF5D /* Exceptions for "Chart" folder in "ColorChroma" target */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		71703CB02E164FC6008FDF5D /* Chat */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71703CE82E164FC6008FDF5D /* Exceptions for "Chat" folder in "ColorChroma" target */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		71703CB82E164FC6008FDF5D /* Home */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71703CE92E164FC6008FDF5D /* Exceptions for "Home" folder in "ColorChroma" target */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		71703CC02E164FC6008FDF5D /* ImageAnalysis */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImageAnalysis;
+			sourceTree = "<group>";
+		};
+		71703CC52E164FC6008FDF5D /* LiveScan */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71703CEA2E164FC6008FDF5D /* Exceptions for "LiveScan" folder in "ColorChroma" target */,
+			);
+			path = LiveScan;
+			sourceTree = "<group>";
+		};
+		71703CCD2E164FC6008FDF5D /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71703CEB2E164FC6008FDF5D /* Exceptions for "Resources" folder in "ColorChroma" target */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		71717D5C2E17693500AB0086 /* Indicator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71717D602E1769D100AB0086 /* Exceptions for "Indicator" folder in "ColorChroma" target */,
+			);
+			path = Indicator;
+			sourceTree = "<group>";
+		};
+		71717D632E177E3400AB0086 /* FoodAid */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71717D672E177EC600AB0086 /* Exceptions for "FoodAid" folder in "ColorChroma" target */,
+			);
+			path = FoodAid;
+			sourceTree = "<group>";
+		};
+		71717D6B2E178DF700AB0086 /* InfoHub */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71717D6F2E178E9700AB0086 /* Exceptions for "InfoHub" folder in "ColorChroma" target */,
+			);
+			path = InfoHub;
+			sourceTree = "<group>";
+		};
+		717618FE2E168B700060D62A /* Maps */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				717619032E16918D0060D62A /* Exceptions for "Maps" folder in "ColorChroma" target */,
+			);
+			path = Maps;
+			sourceTree = "<group>";
+		};
+		71ADA65D2E17ABB7009E036B /* ColorTest */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71ADA6602E17AC28009E036B /* Exceptions for "ColorTest" folder in "ColorChroma" target */,
+			);
+			path = ColorTest;
+			sourceTree = "<group>";
+		};
+		71BD6A172E181EF000366797 /* ColorDescription */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71BD6A1B2E18212100366797 /* Exceptions for "ColorDescription" folder in "ColorChroma" target */,
+			);
+			path = ColorDescription;
+			sourceTree = "<group>";
+		};
+		71CF002B2E1651AD00CB1FB8 /* Tasks */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		71CF6D892E16D5AF004D4AEE /* Settings */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71CF6D8C2E16D643004D4AEE /* Exceptions for "Settings" folder in "ColorChroma" target */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		71FA75E42E16B30D00A1DE58 /* Labeling */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71BD6A152E1807A800366797 /* Exceptions for "Labeling" folder in "ColorChroma" target */,
+			);
+			path = Labeling;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7140FBDC2E16396C006000D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7140FBD62E16396C006000D8 = {
+			isa = PBXGroup;
+			children = (
+				7140FBE02E16396C006000D8 /* Products */,
+				71FA75EA2E16B3D000A1DE58 /* DataModels */,
+				71CF002A2E16515B00CB1FB8 /* Features */,
+				7140FBE12E16396C006000D8 /* ColorChroma */,
+				71703CB82E164FC6008FDF5D /* Home */,
+				71703CCD2E164FC6008FDF5D /* Resources */,
+				71703BE72E163E5B008FDF5D /* Assets.xcassets */,
+				71703BE82E163E5B008FDF5D /* ColorChromaApp.swift */,
+				71703BEA2E163E5B008FDF5D /* ContentViewWrapper.swift */,
+				71703BEB2E163E5B008FDF5D /* MainTabView.swift */,
+				717618CD2E1687E60060D62A /* TasksView.swift */,
+				71CF6D842E16BD44004D4AEE /* Shared */,
+			);
+			sourceTree = "<group>";
+		};
+		7140FBE02E16396C006000D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7140FBDF2E16396C006000D8 /* ColorChroma.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71CF002A2E16515B00CB1FB8 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				71360EB72E1920A2002E32A1 /* ColorReference */,
+				71360E7C2E191392002E32A1 /* Onboarding */,
+				71BD6A172E181EF000366797 /* ColorDescription */,
+				716C8C482E17DCE600CF3015 /* ReferenceComparison */,
+				71ADA65D2E17ABB7009E036B /* ColorTest */,
+				71717D6B2E178DF700AB0086 /* InfoHub */,
+				71717D632E177E3400AB0086 /* FoodAid */,
+				71717D5C2E17693500AB0086 /* Indicator */,
+				71CF6D892E16D5AF004D4AEE /* Settings */,
+				71FA75E42E16B30D00A1DE58 /* Labeling */,
+				717618FE2E168B700060D62A /* Maps */,
+				71CF002B2E1651AD00CB1FB8 /* Tasks */,
+				71703CAC2E164FC6008FDF5D /* Chart */,
+				71703CB02E164FC6008FDF5D /* Chat */,
+				71703CC52E164FC6008FDF5D /* LiveScan */,
+				71703CC02E164FC6008FDF5D /* ImageAnalysis */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		71CF6D842E16BD44004D4AEE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		71FA75EA2E16B3D000A1DE58 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				71360EB42E192084002E32A1 /* StandardColor.swift */,
+				71360E7A2E191385002E32A1 /* OnboardingModels.swift */,
+				71ADA6762E17D73D009E036B /* ColorTips.swift */,
+				71CF6D872E16D59E004D4AEE /* SettingsModels.swift */,
+				71CF6D852E16BD50004D4AEE /* CustomBackButton.swift */,
+				71FA75EB2E16B3E200A1DE58 /* LabeledItems.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7140FBDE2E16396C006000D8 /* ColorChroma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7140FBEA2E16396E006000D8 /* Build configuration list for PBXNativeTarget "ColorChroma" */;
+			buildPhases = (
+				7140FBDB2E16396C006000D8 /* Sources */,
+				7140FBDC2E16396C006000D8 /* Frameworks */,
+				7140FBDD2E16396C006000D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7140FBE12E16396C006000D8 /* ColorChroma */,
+				71703CC02E164FC6008FDF5D /* ImageAnalysis */,
+				71CF002B2E1651AD00CB1FB8 /* Tasks */,
+			);
+			name = ColorChroma;
+			packageProductDependencies = (
+			);
+			productName = ColorChroma;
+			productReference = 7140FBDF2E16396C006000D8 /* ColorChroma.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7140FBD72E16396C006000D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					7140FBDE2E16396C006000D8 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 7140FBDA2E16396C006000D8 /* Build configuration list for PBXProject "ColorChroma" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7140FBD62E16396C006000D8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7140FBE02E16396C006000D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7140FBDE2E16396C006000D8 /* ColorChroma */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7140FBDD2E16396C006000D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71703BF02E163E5B008FDF5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7140FBDB2E16396C006000D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717618D02E1687E60060D62A /* TasksView.swift in Sources */,
+				71ADA6772E17D742009E036B /* ColorTips.swift in Sources */,
+				71CF6D862E16BE16004D4AEE /* CustomBackButton.swift in Sources */,
+				71703BEC2E163E5B008FDF5D /* MainTabView.swift in Sources */,
+				71CF6D882E16D5A3004D4AEE /* SettingsModels.swift in Sources */,
+				71703BED2E163E5B008FDF5D /* ColorChromaApp.swift in Sources */,
+				71703BEF2E163E5B008FDF5D /* ContentViewWrapper.swift in Sources */,
+				71FA75EC2E16B48000A1DE58 /* LabeledItems.swift in Sources */,
+				71360EB52E192086002E32A1 /* StandardColor.swift in Sources */,
+				71360E7B2E191387002E32A1 /* OnboardingModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7140FBE82E16396E006000D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = LP7VJ4S22T;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7140FBE92E16396E006000D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LP7VJ4S22T;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7140FBEB2E16396E006000D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LP7VJ4S22T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ColorChroma Need camera access to identify colors in real time";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenbin.ColorChroma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7140FBEC2E16396E006000D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LP7VJ4S22T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "ColorChroma Need camera access to identify colors in real time";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wenbin.ColorChroma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7140FBDA2E16396C006000D8 /* Build configuration list for PBXProject "ColorChroma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7140FBE82E16396E006000D8 /* Debug */,
+				7140FBE92E16396E006000D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7140FBEA2E16396E006000D8 /* Build configuration list for PBXNativeTarget "ColorChroma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7140FBEB2E16396E006000D8 /* Debug */,
+				7140FBEC2E16396E006000D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7140FBD72E16396C006000D8 /* Project object */;
+}
