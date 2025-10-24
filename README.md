@@ -1,2 +1,5 @@
 # ColorChroma
-Colorblind Assistive App
+
+## Not Intended for Public Use
+
+## Features
