@@ -22,21 +22,21 @@ The app leverages **real-time computer vision** and **Google’s Gemini AI** to 
 
 ### 2. AI-Powered Assistants
 
-* **👕 Clothing Matcher:** Upload photos of two clothing items. The AI stylist provides a verdict (e.g., “✅ Excellent Match”) with reasoning based on color theory and contrast.
-* **🎨 Color Comparison:** Compare the prominent colors of any two objects and get a detailed explanation of their similarities and differences.
-* **📷 Reference Comparison:** Match a live object’s color against a reference image (great for tasks like paint matching or food doneness checks).
-* **🧺 Sorting Assistant:** Automatically groups items into broad color categories (e.g., *“Reds & Pinks”*, *“Blues & Purples”*) — ideal for sorting laundry.
-* **📊 Chart & Map Analyzer:** Upload an image of a chart, graph, or map. The AI interprets it, describing data, trends, and legends in an accessible format.
-* **🥑 Food & Cooking Aid:** Get visual-based AI assistance for checking the ripeness of produce or the doneness of cooked foods.
-* **💡 Indicator Scanner:** Identifies the color and probable meaning of status lights on electronic devices.
+* **Clothing Matcher:** Upload photos of two clothing items. The AI stylist provides a verdict (e.g., “✅ Excellent Match”) with reasoning based on color theory and contrast.
+* **Color Comparison:** Compare the prominent colors of any two objects and get a detailed explanation of their similarities and differences.
+* **Reference Comparison:** Match a live object’s color against a reference image (great for tasks like paint matching or food doneness checks).
+* **Sorting Assistant:** Automatically groups items into broad color categories (e.g., *“Reds & Pinks”*, *“Blues & Purples”*) — ideal for sorting laundry.
+* **Chart & Map Analyzer:** Upload an image of a chart, graph, or map. The AI interprets it, describing data, trends, and legends in an accessible format.
+* **Food & Cooking Aid:** Get visual-based AI assistance for checking the ripeness of produce or the doneness of cooked foods.
+* **Indicator Scanner:** Identifies the color and probable meaning of status lights on electronic devices.
 
 ### 3. Interactive & Learning Tools
 
-* **💬 Chroma AI Chat:** Converse with *Chroma*, a color-specialized AI assistant. Ask about color differences, matches, or theory.
-* **📸 Item Labeling & Saving:** Capture and label items, saving their colors to a personal library with **SwiftData**.
-* **🧩 Color Perception Test:** An interactive, Ishihara-style color vision test *(for exploration, not diagnosis).*
-* **📚 Color Reference:** A searchable library of standard color swatches and hex codes.
-* **ℹ️ Information Hub:** Learn about various types of color vision deficiencies and accessibility topics.
+* **Chroma AI Chat:** Converse with *Chroma*, a color-specialized AI assistant. Ask about color differences, matches, or theory.
+* **Item Labeling & Saving:** Capture and label items, saving their colors to a personal library with **SwiftData**.
+* **Color Perception Test:** An interactive, Ishihara-style color vision test *(for exploration, not diagnosis).*
+* **Color Reference:** A searchable library of standard color swatches and hex codes.
+* **Information Hub:** Learn about various types of color vision deficiencies and accessibility topics.
 
 ## Core Technologies
 
