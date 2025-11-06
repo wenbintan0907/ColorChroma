@@ -8,9 +8,9 @@ The app leverages **real-time computer vision** and **Google’s Gemini AI** to 
 
 ## Images
 <img src="images/picture1.PNG" width="300">
-<img src="images/picture2.PNG">
-<img src="images/picture3.PNG">
-<img src="images/picture4.PNG">
+<img src="images/picture2.PNG" width="300">
+<img src="images/picture3.PNG" width="300">
+<img src="images/picture4.PNG" width="300">
 
 ## Key Features
 
